@@ -35,7 +35,7 @@ public class emp {
                 System.out.println("The Employee is from the southern states of India ,Preferable work location is in Andra Pradesh");
                break;
             case "Haryana":
-                System.out.println("The Employee is from the southern states of India ,Preferable work location is in Haryana");
+                System.out.println("The Employee is from the northern  states of India ,Preferable work location is in Haryana");
                 break;
             case "Manipur":
                 System.out.println("The Employee is from the central states of India ,Preferable work location is in Manipur");
@@ -44,16 +44,16 @@ public class emp {
                 System.out.println("The Employee is from the eastern states of India ,Preferable work location is in Sikkim");
                 break;
             case "UP":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in UP");
+                System.out.println("The Employee is from the northern states of India ,Preferable work location is in UP");
                 break;
             case "Tripura":
                 System.out.println("The Employee is from the western states of India ,Preferable work location is in Tripura");
                 break;
             case "Telangan":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Telangan");
+                System.out.println("The Employee is from the southern states of India ,Preferable work location is in Telangan");
                 break;
             case "TamilNadu":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in TamilNadu");
+                System.out.println("The Employee is from the southern states of India ,Preferable work location is in TamilNadu");
                 break;
             case "Goa":
                 System.out.println("The Employee is from the western states of India ,Preferable work location is in Goa");
@@ -65,40 +65,40 @@ public class emp {
                 System.out.println("The Employee is from the western states of India ,Preferable work location is in Chattisgarh");
                 break;
             case "Kerala":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Kerala");
+                System.out.println("The Employee is from the southern states of India ,Preferable work location is in Kerala");
                 break;
             case "Meghalaya":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Meghalaya");
+                System.out.println("The Employee is from the northern  states of India ,Preferable work location is in Meghalaya");
                 break;
             case "Karnataka":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Karnataka");
+                System.out.println("The Employee is from the southern states of India ,Preferable work location is in Karnataka");
                 break;
             case "HimachalPradesh":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in HimachalPradesh");
+                System.out.println("The Employee is from the northern  states of India ,Preferable work location is in HimachalPradesh");
                 break;
             case "Jharkhand":
                 System.out.println("The Employee is from the western states of India ,Preferable work location is in Jharkhand");
                 break;
             case "Bihar":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Bihar");
+                System.out.println("The Employee is from the eastern states of India ,Preferable work location is in Bihar");
                 break;
             case "Maharastra":
                 System.out.println("The Employee is from the western states of India ,Preferable work location is in Maharastra");
                 break;
             case "Rajasthan":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Rajasthan");
+                System.out.println("The Employee is from the northern  states of India ,Preferable work location is in Rajasthan");
                 break;
             case "WestBengal":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in WestBengal");
+                System.out.println("The Employee is from the eastern states of India ,Preferable work location is in WestBengal");
                 break;
             case "Nagaland":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Nagaland");
+                System.out.println("The Employee is from the eastern states of India ,Preferable work location is in Nagaland");
                 break;
             case "Punjab":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Punjab");
+                System.out.println("The Employee is from the northern states of India ,Preferable work location is in Punjab");
                 break;
             case "Odissa":
-                System.out.println("The Employee is from the western states of India ,Preferable work location is in Odissa");
+                System.out.println("The Employee is from the eastern states of India ,Preferable work location is in Odissa");
                 break;
             default:
                 System.out.println("Bye.");

@@ -19,5 +19,6 @@ Your program should have two functions, one for encryption and another for decry
 
 
 FLOWCHART:
-![lab 5 (1)](https://user-images.githubusercontent.com/118044793/223039240-68d8aed4-122a-4db4-a43b-86c4d79a3350.jpg)
+![lab 5 (2)](https://user-images.githubusercontent.com/118044793/223039414-4aafd8c7-7831-44c8-be21-0933ad7a5b36.jpg)
+
 

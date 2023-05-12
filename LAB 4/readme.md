@@ -19,3 +19,9 @@ Your menu will have the following operations once the customer is created
 You need to draw a flowchart, and structure your results and program description and other details in README.md
 
 
+## Flowchart
+
+
+
+![Java_Lab_4](https://github.com/sanjanasengar/22122042-MDS273L-JAVA/assets/118044793/b88efe1c-ec96-48d8-9972-788fe90e30ad)
+

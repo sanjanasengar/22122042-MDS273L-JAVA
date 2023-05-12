@@ -1,4 +1,3 @@
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,22 +5,18 @@ import java.util.Scanner;
 
 
 class studentclass {
-    private static final int MAX_STUDENTS = 100;
-    private static final Student[] students = new Student[MAX_STUDENTS];
+    private static final int MAX_STU = 100;
+    private static final Student[] students = new Student[MAX_STU];
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
             System.out.println("MENU");
-            System.out.println("1. Add a student");
-            System.out.println("2. Search for a student");
-            System.out.println("3. Update the details of a student");
-            System.out.println("4. Display all students");
-            System.out.println("5. Save student details to file");
-            System.out.println("6. Exit");
-            System.out.print("Enter your choice: ");
-            choice = scanner.nextInt();
+            System.out.println("1. Add a student "+ "\n 2. Search for a student" + "\n Update the details of a student" + "\n Display all students" + "\n Save student details to file" + "\n Exit");
+             System.out.print("Enter your choice: ");
+             
+             choice = scanner.nextInt();
             scanner.nextLine();
             switch (choice) {
                 case 1:
@@ -66,14 +61,14 @@ class studentclass {
         System.out.print("Department: ");
         department = scanner.nextLine();
         Student student = new Student(regNo, name, email, phone, cls, department);
-        for (int i = 0; i < MAX_STUDENTS; i++) {
+        for (int i = 0; i < MAX_STU; i++) {
             if (students[i] == null) {
                 students[i] = student;
                 System.out.println("Student added successfully");
                 break;
             }
-            if (i == MAX_STUDENTS - 1) {
-                System.out.println("Maximum number of students reached, cannot add more students");
+            if (i == MAX_STU - 1) {
+                System.out.println("Maximum number of students reached");
             }
         }
     }
@@ -146,7 +141,7 @@ class studentclass {
                     String fileName = student.getName() + ".txt";
                     try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
                         writer.write(student.toString());
-                        System.out.println("Student details saved to file successfully");
+                        System.out.println("Student details saved to file");
                     } catch (IOException e) {
                         System.out.println("Error occurred while saving student details to file: " + e.getMessage());
                     }
@@ -176,12 +171,8 @@ class Student {
     }
 
     public void printDetails() {
-        System.out.println("Reg No.: " + regNo);
-        System.out.println("Name: " + name);
-        System.out.println("Email: " + email);
-        System.out.println("Phone: " + phone);
-        System.out.println("Class: " + cls);
-        System.out.println("Department: " + department);
+        System.out.println("Reg No.: " + regNo+ "\n Name: " + name +"\n Email: " + email + "\n Phone: " + phone +"\n Class: " + cls +"\n Department: " + department);
+       
     }
 
     public String toString() {
